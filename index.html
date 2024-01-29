@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Editor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+      
+        
+    <div class="heading">
+        <h1>TEXT EDITOR</h1>
+    <p>Simple Text Editor Made Using HTML, CSS and JavaScript</p>
+        
+    </div>
+        <div class="row">
+            <div class="col">
+                <button type="button"
+                    onclick="bold()"
+                    class="btn"
+                    data-toggle="tooltip"
+                    data-placement="top"
+                    title="Make Bold"    
+                >BOLD</button>
+
+                <button type="button"
+                    onclick="italic()"
+                    class="btn"
+                    data-toggle="tooltip"
+                    data-placement="top"
+                    title="Make Italic"    
+                >ITALIC</button>
+
+
+            
+                <button type="button"
+                    onclick="uppercase()"
+                    class="btn"
+                    data-toggle="tooltip"
+                    data-placement="top"
+                    title="UpperCase"    
+                >UPPER CASE</button>
+
+                <button type="button"
+                    onclick="lowercase()"
+                    class="btn"
+                    data-toggle="tooltip"
+                    data-placement="top"
+                    title="LowerCase"    
+                >LOWER CASE</button>
+
+        </div>
+    </div>
+    <br>
+<div class="row1">
+    <div class="box">
+        <textarea id="textarea" 
+                    class="custom-textarea" 
+                    name="textarea" 
+                    rows="15" 
+                    cols="100"> 
+        </textarea> 
+        
+    </div>
+    
+    <button type="button"
+    onclick="clear()"
+    class="clearBtn"
+    data-toggle="tooltip"
+    data-placement="top"
+    title="Clear Text">
+    CLEAR
+    </button>
+
+</div>
+
+</div>
+
+
+<footer id="footer">
+    <div class="social-media">
+        <h2>Social Media Links</h2>
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="https://www.instagram.com/bharat_cyber_rescuer/" class="fa fa-instagram"></a>
+    <a href="https://github.com/Audumbar-Patil" class="fa fa-github"></a>
+    <a href="https://www.linkedin.com/in/audumbarpatil/" class="fa fa-linkedin"></a>
+    
+        
+    </div>
+    <h1>Audumbar Patil</h1>
+    <p>Email:  patil.audumbar.santosh@gmail.com</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

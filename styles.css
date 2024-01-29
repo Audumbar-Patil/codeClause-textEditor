@@ -1,0 +1,113 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-image: url(cover.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.container {
+    background-image: url(bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.heading{
+    
+    font-weight: bold;
+    
+    font-size: 40px;
+    overflow: hidden;
+    
+    color: black;
+}
+
+.heading p{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.row{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.row1{
+    
+    text-align: center;
+}
+
+.row1 button{
+    margin-top: 10px;
+    color: black;
+    background-color: red;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.btn{
+    padding: 10px 20px;
+    background-color: bisque;
+    border-radius: 10px;
+    border: 3px solid black;
+    cursor: pointer;
+
+}
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.fa{
+    padding: 10px 10px;
+    font-size: 15px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.fa:hover{
+    opacity: 0.7;
+}
+
+.fa-facebook{
+    background-color: #3B5998;
+    color:white;
+}
+
+.fa-instagram{
+    background-color: rgb(205, 72, 107) ;
+    color: black;
+}
+
+.fa-github{
+    background-color: white;
+    color:black;
+}
+
+.fa-linkedin{
+    background-color: rgb(10, 102, 194);
+    color: white;
+}
